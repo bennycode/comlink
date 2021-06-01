@@ -246,6 +246,12 @@ Comlink does provide TypeScript types. When you `expose()` something of type `T`
 
 Comlink works with Node’s [`worker_threads`][worker_threads] module. Take a look at the example in the `docs` folder.
 
+### TypeScript and Node
+
+To use Comlink in a TypeScript project running on Node you have to:
+
+1. ...
+
 [webworker]: https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API
 [umd]: https://github.com/umdjs/umd
 [transferable]: https://developer.mozilla.org/en-US/docs/Web/API/Transferable
